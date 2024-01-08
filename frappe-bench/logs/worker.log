@@ -1,0 +1,8 @@
+2024-01-08 16:24:55,400 Worker rq:worker:4ebc7c405da045f391a98983252e58c5 started with PID 29365, version 1.15.1
+2024-01-08 16:24:55,401 Subscribing to channel rq:pubsub:4ebc7c405da045f391a98983252e58c5
+2024-01-08 16:24:55,401 *** Listening on home-nihal-study-frappe-first-frappe-bench:short, home-nihal-study-frappe-first-frappe-bench:default, home-nihal-study-frappe-first-frappe-bench:long...
+2024-01-08 16:24:55,401 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:short
+2024-01-08 16:24:55,402 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:default
+2024-01-08 16:24:55,402 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:long
+2024-01-08 16:26:37,646 Worker 4ebc7c405da045f391a98983252e58c5 [PID 29365]: warm shut down requested
+2024-01-08 16:26:37,647 Unsubscribing from channel rq:pubsub:4ebc7c405da045f391a98983252e58c5

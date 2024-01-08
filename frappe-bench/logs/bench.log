@@ -14,3 +14,17 @@
 2024-01-08 16:19:50,527 LOG setting up backups
 2024-01-08 16:19:50,530 LOG backups were set up
 2024-01-08 16:19:50,530 INFO Bench frappe-bench initialized
+2024-01-08 16:24:54,684 INFO /home/nihal/.local/bin/bench start
+2024-01-08 16:24:54,869 INFO /home/nihal/.local/bin/bench watch
+2024-01-08 16:24:54,869 INFO /home/nihal/.local/bin/bench worker
+2024-01-08 16:24:54,871 INFO /home/nihal/.local/bin/bench schedule
+2024-01-08 16:24:54,877 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-08 16:28:56,345 INFO /home/nihal/.local/bin/bench new-app library_management
+2024-01-08 16:28:56,355 LOG creating new app library_management
+2024-01-08 16:29:14,696 LOG Installing library_management
+2024-01-08 16:29:14,697 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && /home/nihal/study/frappe/first/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nihal/study/frappe/first/frappe-bench/apps/library_management 
+2024-01-08 16:29:17,067 DEBUG bench build --app library_management
+2024-01-08 16:29:17,156 INFO /home/nihal/.local/bin/bench build --app library_management
+2024-01-08 16:29:19,059 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe:
+2024-01-08 16:29:19,226 WARNING cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-01-08 16:29:19,226 WARNING restarting supervisor failed. Use `bench restart` to retry.
