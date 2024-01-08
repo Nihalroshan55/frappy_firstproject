@@ -28,3 +28,4 @@
 2024-01-08 16:29:19,059 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe:
 2024-01-08 16:29:19,226 WARNING cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
 2024-01-08 16:29:19,226 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2024-01-08 16:30:33,357 INFO /home/nihal/.local/bin/bench build --app library_management
