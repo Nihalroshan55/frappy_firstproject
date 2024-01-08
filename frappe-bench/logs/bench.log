@@ -30,3 +30,6 @@
 2024-01-08 16:29:19,226 WARNING restarting supervisor failed. Use `bench restart` to retry.
 2024-01-08 16:30:33,357 INFO /home/nihal/.local/bin/bench build --app library_management
 2024-01-08 16:43:25,888 INFO /home/nihal/.local/bin/bench new-site library.test
+2024-01-08 16:46:27,788 INFO /home/nihal/.local/bin/bench --site library.test add-to-hosts
+2024-01-08 16:47:05,653 INFO /home/nihal/.local/bin/bench --site library.test install-app library_management
+2024-01-08 16:47:17,252 INFO /home/nihal/.local/bin/bench --site library.test list-apps
