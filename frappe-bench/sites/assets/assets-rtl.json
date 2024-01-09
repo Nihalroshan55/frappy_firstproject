@@ -1,13 +1,14 @@
 {
-    "rtl_desk.bundle.css": "/assets/frappe/dist/css-rtl/desk.bundle.PL2I5C6T.css",
-    "rtl_email.bundle.css": "/assets/frappe/dist/css-rtl/email.bundle.H35RY2LU.css",
-    "rtl_login.bundle.css": "/assets/frappe/dist/css-rtl/login.bundle.AQL7XQ2Y.css",
-    "rtl_print.bundle.css": "/assets/frappe/dist/css-rtl/print.bundle.67IBQY4H.css",
-    "rtl_print_format.bundle.css": "/assets/frappe/dist/css-rtl/print_format.bundle.63PLBKEM.css",
-    "rtl_report.bundle.css": "/assets/frappe/dist/css-rtl/report.bundle.IAIEJH2I.css",
-    "rtl_web_form.bundle.css": "/assets/frappe/dist/css-rtl/web_form.bundle.MWTJNBT6.css",
-    "rtl_website.bundle.css": "/assets/frappe/dist/css-rtl/website.bundle.IUCGV4PD.css",
-    "rtl_erpnext-web.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext-web.bundle.77U27IFY.css",
-    "rtl_erpnext.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext.bundle.TQ4YEDIE.css",
-    "rtl_erpnext_email.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext_email.bundle.USJXRAPE.css"
+    "rtl_desk.bundle.css": "/assets/frappe/dist/css-rtl/desk.bundle.OKT5BIPG.css",
+    "rtl_email.bundle.css": "/assets/frappe/dist/css-rtl/email.bundle.C5ADR26C.css",
+    "rtl_login.bundle.css": "/assets/frappe/dist/css-rtl/login.bundle.FSTIIYG5.css",
+    "rtl_print.bundle.css": "/assets/frappe/dist/css-rtl/print.bundle.SYDGUCQZ.css",
+    "rtl_print_format.bundle.css": "/assets/frappe/dist/css-rtl/print_format.bundle.A4KT5X4R.css",
+    "rtl_report.bundle.css": "/assets/frappe/dist/css-rtl/report.bundle.QFYQAEUJ.css",
+    "rtl_web_form.bundle.css": "/assets/frappe/dist/css-rtl/web_form.bundle.7ZHJEFJT.css",
+    "rtl_website.bundle.css": "/assets/frappe/dist/css-rtl/website.bundle.4FQD6TSN.css",
+    "rtl_erpnext-web.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext-web.bundle.QEP5BJAN.css",
+    "rtl_erpnext.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext.bundle.D27NNBJB.css",
+    "rtl_erpnext_email.bundle.css": "/assets/erpnext/dist/css-rtl/erpnext_email.bundle.ZQIIGEX5.css",
+    "rtl_hrms.bundle.css": "/assets/hrms/dist/css-rtl/hrms.bundle.4RLG3QM2.css"
 }

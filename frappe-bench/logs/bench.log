@@ -72,3 +72,62 @@
 2024-01-09 10:26:59,620 INFO /home/nihal/.local/bin/bench watch
 2024-01-09 10:26:59,620 INFO /home/nihal/.local/bin/bench serve --port 8000
 2024-01-09 10:26:59,621 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 10:34:38,111 INFO /home/nihal/.local/bin/bench start
+2024-01-09 10:34:38,319 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 10:34:38,324 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 10:34:38,327 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 10:34:38,343 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 10:45:19,607 INFO /home/nihal/.local/bin/bench new-site site.local
+2024-01-09 10:46:55,459 INFO /home/nihal/.local/bin/bench get-app erpnext
+2024-01-09 10:46:58,025 INFO App moved from apps/erpnext to archived/apps/erpnext-2024-01-09
+2024-01-09 10:46:58,027 LOG Getting erpnext
+2024-01-09 10:46:58,027 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch develop --depth 1 --origin upstream
+2024-01-09 10:47:05,187 LOG Installing erpnext
+2024-01-09 10:47:05,287 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && /home/nihal/study/frappe/first/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nihal/study/frappe/first/frappe-bench/apps/erpnext 
+2024-01-09 10:47:07,492 DEBUG cd /home/nihal/study/frappe/first/frappe-bench/apps/erpnext && yarn install
+2024-01-09 10:47:07,756 DEBUG bench build --app erpnext
+2024-01-09 10:47:07,853 INFO /home/nihal/.local/bin/bench build --app erpnext
+2024-01-09 10:47:10,319 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe:
+2024-01-09 10:47:10,461 WARNING cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-01-09 10:47:10,462 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2024-01-09 10:48:03,949 INFO /home/nihal/.local/bin/bench --site site1.local install-app erpnext
+2024-01-09 10:48:20,817 INFO /home/nihal/.local/bin/bench --site site.local install-app erpnext
+2024-01-09 10:49:50,679 INFO /home/nihal/.local/bin/bench --site site1.local enable-scheduler
+2024-01-09 10:49:55,584 INFO /home/nihal/.local/bin/bench --site site.local enable-scheduler
+2024-01-09 10:50:13,443 INFO /home/nihal/.local/bin/bench start
+2024-01-09 10:50:13,650 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 10:50:13,650 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 10:50:13,650 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 10:50:13,670 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 10:50:46,676 INFO /home/nihal/.local/bin/bench start
+2024-01-09 10:50:46,887 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 10:50:46,887 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 10:50:46,889 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 10:50:46,892 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 10:51:58,346 INFO /home/nihal/.local/bin/bench --site site.local add-to-hosts
+2024-01-09 10:52:04,171 INFO /home/nihal/.local/bin/bench start
+2024-01-09 10:52:04,382 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 10:52:04,382 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 10:52:04,387 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 10:52:04,396 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 11:12:00,811 INFO /home/nihal/.local/bin/bench get-app human resources
+2024-01-09 11:12:03,303 WARNING /home/nihal/.local/bin/bench get-app human resources executed with exit code 1
+2024-01-09 11:12:13,691 INFO /home/nihal/.local/bin/bench get-app human_resources
+2024-01-09 11:12:15,903 WARNING /home/nihal/.local/bin/bench get-app human_resources executed with exit code 1
+2024-01-09 11:13:47,045 INFO /home/nihal/.local/bin/bench get-app hrms
+2024-01-09 11:13:48,068 LOG Getting hrms
+2024-01-09 11:13:48,068 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2024-01-09 11:13:57,387 LOG Installing hrms
+2024-01-09 11:13:57,536 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && /home/nihal/study/frappe/first/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nihal/study/frappe/first/frappe-bench/apps/hrms 
+2024-01-09 11:13:59,556 DEBUG cd /home/nihal/study/frappe/first/frappe-bench/apps/hrms && yarn install
+2024-01-09 11:14:22,559 DEBUG bench build --app hrms
+2024-01-09 11:14:22,638 INFO /home/nihal/.local/bin/bench build --app hrms
+2024-01-09 11:14:44,714 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe:
+2024-01-09 11:14:44,876 WARNING cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-01-09 11:14:44,876 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2024-01-09 11:15:00,564 INFO /home/nihal/.local/bin/bench --site site.local install-app hrms
+2024-01-09 11:15:49,112 INFO /home/nihal/.local/bin/bench start
+2024-01-09 11:15:49,322 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 11:15:49,322 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 11:15:49,329 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 11:15:49,329 INFO /home/nihal/.local/bin/bench worker
