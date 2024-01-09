@@ -2424,3 +2424,33 @@ index modified(modified))
 			ROW_FORMAT=DYNAMIC
 			CHARACTER SET=utf8mb4
 			COLLATE=utf8mb4_unicode_ci
+2024-01-08 17:01:55,186 WARNING database DDL Query made to DB:
+create table `tabArticle` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-08 17:38:28,643 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `name1` varchar(140)
+2024-01-08 17:38:28,643 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `name1` varchar(140)
+2024-01-08 17:39:42,550 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `photo` text
+2024-01-08 17:39:42,550 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `photo` text
+2024-01-08 17:40:21,031 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `price` decimal(21,9) NOT NULL DEFAULT 0.0
+2024-01-08 17:40:21,031 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticle` ADD COLUMN `price` decimal(21,9) NOT NULL DEFAULT 0.0
