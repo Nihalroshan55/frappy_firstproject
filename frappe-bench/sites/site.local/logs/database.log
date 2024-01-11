@@ -1353,3 +1353,163 @@ ALTER TABLE `tabCompany` ADD COLUMN `default_expense_claim_payable_account` varc
 ALTER TABLE `tabCompany` MODIFY `monthly_sales_target` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `lft` int(11) NOT NULL DEFAULT 0, MODIFY `enable_perpetual_inventory` int(1) NOT NULL DEFAULT 1, MODIFY `enable_provisional_accounting_for_non_stock_items` int(1) NOT NULL DEFAULT 0, MODIFY `credit_limit` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `allow_account_creation_against_child_company` int(1) NOT NULL DEFAULT 0, MODIFY `submit_err_jv` int(1) NOT NULL DEFAULT 0, MODIFY `book_advance_payments_in_separate_party_account` int(1) NOT NULL DEFAULT 0, MODIFY `total_monthly_sales` decimal(21,9) NOT NULL DEFAULT 0.0, MODIFY `rgt` int(11) NOT NULL DEFAULT 0, MODIFY `is_group` int(1) NOT NULL DEFAULT 0, MODIFY `auto_exchange_rate_revaluation` int(1) NOT NULL DEFAULT 0
 2024-01-09 11:15:18,142 WARNING database DDL Query made to DB:
 ALTER TABLE `tabDesignation` ADD COLUMN `appraisal_template` varchar(140)
+2024-01-09 12:48:23,347 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` ADD COLUMN `is_billing_contact` int(1) NOT NULL DEFAULT 0
+2024-01-09 12:48:23,351 WARNING database DDL Query made to DB:
+ALTER TABLE `tabContact` MODIFY `unsubscribed` int(1) NOT NULL DEFAULT 0, MODIFY `pulled_from_google_contacts` int(1) NOT NULL DEFAULT 0, MODIFY `is_primary_contact` int(1) NOT NULL DEFAULT 0, MODIFY `sync_with_google_contacts` int(1) NOT NULL DEFAULT 0
+2024-01-09 13:23:29,169 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` ADD COLUMN `is_your_company_address` int(1) NOT NULL DEFAULT 0
+2024-01-09 13:23:29,173 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAddress` MODIFY `disabled` int(1) NOT NULL DEFAULT 0, MODIFY `is_primary_address` int(1) NOT NULL DEFAULT 0, MODIFY `is_shipping_address` int(1) NOT NULL DEFAULT 0
+2024-01-09 15:29:57,604 WARNING database DDL Query made to DB:
+create table `tabfeedback` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-09 15:29:57,604 WARNING database DDL Query made to DB:
+create table `tabfeedback` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-09 15:46:53,562 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `customer` varchar(140), ADD COLUMN `item` varchar(140), ADD COLUMN `rating` decimal(3,2), ADD COLUMN `feedback` text
+2024-01-09 15:46:53,562 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `customer` varchar(140), ADD COLUMN `item` varchar(140), ADD COLUMN `rating` decimal(3,2), ADD COLUMN `feedback` text
+2024-01-09 15:49:45,229 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 15:49:45,229 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 15:58:27,386 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:08:01,334 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:08:01,334 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:08:52,402 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:09:06,257 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:09:06,257 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:45:14,512 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `value_for_money` varchar(140), ADD COLUMN `reasorn` varchar(140)
+2024-01-09 16:45:14,516 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:47:14,994 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` MODIFY `rating` decimal(3,2)
+2024-01-09 16:50:31,078 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `reason` varchar(140)
+2024-01-09 16:50:31,078 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `reason` varchar(140)
+2024-01-09 17:02:47,480 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `order_type` varchar(140)
+2024-01-09 17:02:47,480 WARNING database DDL Query made to DB:
+ALTER TABLE `tabfeedback` ADD COLUMN `order_type` varchar(140)
+2024-01-10 14:39:57,133 WARNING database DDL Query made to DB:
+create table `tabdemo_doc` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-10 14:40:50,457 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` ADD COLUMN `test` varchar(140)
+2024-01-10 14:42:38,078 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` MODIFY `test` longtext
+2024-01-10 14:47:56,809 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` MODIFY `test` varchar(140)
+2024-01-10 14:50:06,183 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` ADD COLUMN `hi` longtext
+2024-01-10 14:54:24,905 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` MODIFY `hi` text
+2024-01-10 15:08:09,927 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` ADD COLUMN `test1` varchar(140), ADD COLUMN `test_sig` longtext, ADD COLUMN `sm_txt` text, ADD COLUMN `text_editer` longtext, ADD COLUMN `time` time(6)
+2024-01-10 15:12:08,860 WARNING database DDL Query made to DB:
+ALTER TABLE `tabdemo_doc` ADD COLUMN `bar` longtext
+2024-01-11 11:03:37,197 WARNING database DDL Query made to DB:
+create table `tabclient side scripting` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-11 11:09:44,470 WARNING database DDL Query made to DB:
+create table `tabFamily Menber` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-01-11 11:11:24,434 WARNING database DDL Query made to DB:
+alter table `tabFamily Menber` add column parent varchar(140)
+2024-01-11 11:11:24,438 WARNING database DDL Query made to DB:
+alter table `tabFamily Menber` add column parenttype varchar(140)
+2024-01-11 11:11:24,443 WARNING database DDL Query made to DB:
+alter table `tabFamily Menber` add column parentfield varchar(140)
+2024-01-11 11:11:24,504 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFamily Menber` ADD COLUMN `name1` varchar(140), ADD COLUMN `age` int(11) NOT NULL DEFAULT 0, ADD COLUMN `relation` varchar(140)
+2024-01-11 11:13:51,473 WARNING database DDL Query made to DB:
+ALTER TABLE `tabclient side scripting` ADD COLUMN `enable` int(1) NOT NULL DEFAULT 0, ADD COLUMN `first_name` varchar(140), ADD COLUMN `middle_name` varchar(140), ADD COLUMN `last_name` varchar(140), ADD COLUMN `full_name` varchar(140), ADD COLUMN `email` varchar(140), ADD COLUMN `mobile_no` varchar(140), ADD COLUMN `dob` varchar(140), ADD COLUMN `age` int(11) NOT NULL DEFAULT 0, ADD COLUMN `amended_from` varchar(140)
+2024-01-11 11:13:51,479 WARNING database DDL Query made to DB:
+ALTER TABLE `tabclient side scripting` ADD INDEX `amended_from_index`(`amended_from`)
+2024-01-11 11:16:01,209 WARNING database DDL Query made to DB:
+ALTER TABLE `tabclient side scripting` MODIFY `age` int(11) NOT NULL DEFAULT 0, MODIFY `enable` int(1) NOT NULL DEFAULT 0

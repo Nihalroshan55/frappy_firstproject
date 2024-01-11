@@ -131,3 +131,73 @@
 2024-01-09 11:15:49,322 INFO /home/nihal/.local/bin/bench watch
 2024-01-09 11:15:49,329 INFO /home/nihal/.local/bin/bench serve --port 8000
 2024-01-09 11:15:49,329 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 11:37:51,870 INFO /home/nihal/.local/bin/bench start
+2024-01-09 11:37:52,080 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 11:37:52,080 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 11:37:52,084 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 11:37:52,085 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 12:00:01,929 INFO /home/nihal/.local/bin/bench --verbose --site all backup
+2024-01-09 12:22:53,417 INFO /home/nihal/.local/bin/bench start
+2024-01-09 12:22:53,605 INFO /home/nihal/.local/bin/bench worker
+2024-01-09 12:22:53,606 INFO /home/nihal/.local/bin/bench schedule
+2024-01-09 12:22:53,616 INFO /home/nihal/.local/bin/bench watch
+2024-01-09 12:22:53,620 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-09 18:00:01,474 INFO /home/nihal/.local/bin/bench --verbose --site all backup
+2024-01-10 00:00:01,432 INFO /home/nihal/.local/bin/bench --verbose --site all backup
+2024-01-10 09:44:53,822 INFO /home/nihal/.local/bin/bench start
+2024-01-10 09:44:54,042 INFO /home/nihal/.local/bin/bench watch
+2024-01-10 09:44:54,042 INFO /home/nihal/.local/bin/bench worker
+2024-01-10 09:44:54,044 INFO /home/nihal/.local/bin/bench schedule
+2024-01-10 09:44:54,051 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-10 12:00:01,923 INFO /home/nihal/.local/bin/bench --verbose --site all backup
+2024-01-10 12:40:03,732 INFO /home/nihal/.local/bin/bench start
+2024-01-10 12:40:03,908 INFO /home/nihal/.local/bin/bench worker
+2024-01-10 12:40:03,908 INFO /home/nihal/.local/bin/bench schedule
+2024-01-10 12:40:03,908 INFO /home/nihal/.local/bin/bench watch
+2024-01-10 12:40:03,914 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-10 13:16:55,106 INFO /home/nihal/.local/bin/bench new-app library_management
+2024-01-10 13:16:55,108 LOG creating new app library_management
+2024-01-10 13:16:59,779 WARNING /home/nihal/.local/bin/bench new-app library_management executed with exit code 1
+2024-01-10 13:17:56,540 INFO /home/nihal/.local/bin/bench uninstall-app library_management
+2024-01-10 13:21:02,941 INFO /home/nihal/.local/bin/bench --site site.local uninstall-app library_management --no-backup
+2024-01-10 13:21:50,419 INFO /home/nihal/.local/bin/bench --site library.test uninstall-app library_management --no-backup
+2024-01-10 13:22:08,203 INFO /home/nihal/.local/bin/bench start
+2024-01-10 13:22:08,406 INFO /home/nihal/.local/bin/bench worker
+2024-01-10 13:22:08,407 INFO /home/nihal/.local/bin/bench schedule
+2024-01-10 13:22:08,407 INFO /home/nihal/.local/bin/bench watch
+2024-01-10 13:22:08,418 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-10 14:27:08,948 INFO /home/nihal/.local/bin/bench new-app demo_app
+2024-01-10 14:27:08,951 LOG creating new app demo_app
+2024-01-10 14:27:49,033 LOG Installing demo_app
+2024-01-10 14:27:49,034 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && /home/nihal/study/frappe/first/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/nihal/study/frappe/first/frappe-bench/apps/demo_app 
+2024-01-10 14:27:51,512 DEBUG bench build --app demo_app
+2024-01-10 14:27:51,603 INFO /home/nihal/.local/bin/bench build --app demo_app
+2024-01-10 14:27:57,064 DEBUG cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe:
+2024-01-10 14:27:57,228 WARNING cd /home/nihal/study/frappe/first/frappe-bench && sudo supervisorctl restart frappe: executed with exit code 2
+2024-01-10 14:27:57,228 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2024-01-10 14:28:55,550 INFO /home/nihal/.local/bin/bench --site site.local install-app demo_app
+2024-01-10 14:29:31,544 INFO /home/nihal/.local/bin/bench start
+2024-01-10 14:29:31,721 INFO /home/nihal/.local/bin/bench worker
+2024-01-10 14:29:31,722 INFO /home/nihal/.local/bin/bench schedule
+2024-01-10 14:29:31,723 INFO /home/nihal/.local/bin/bench watch
+2024-01-10 14:29:31,731 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-10 17:08:23,999 INFO /home/nihal/.local/bin/bench start
+2024-01-10 17:08:24,185 INFO /home/nihal/.local/bin/bench schedule
+2024-01-10 17:08:24,185 INFO /home/nihal/.local/bin/bench watch
+2024-01-10 17:08:24,185 INFO /home/nihal/.local/bin/bench worker
+2024-01-10 17:08:24,197 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-11 09:58:00,005 INFO /home/nihal/.local/bin/bench mariadb
+2024-01-11 09:58:22,308 INFO /home/nihal/.local/bin/bench mariadb --site site.local
+2024-01-11 09:58:37,514 INFO /home/nihal/.local/bin/bench --site site.local mariadb
+2024-01-11 09:59:35,113 INFO /home/nihal/.local/bin/bench --site site.local mariadb
+2024-01-11 10:04:06,058 INFO /home/nihal/.local/bin/bench start
+2024-01-11 10:04:06,269 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-11 10:04:06,271 INFO /home/nihal/.local/bin/bench schedule
+2024-01-11 10:04:06,272 INFO /home/nihal/.local/bin/bench worker
+2024-01-11 10:04:06,276 INFO /home/nihal/.local/bin/bench watch
+2024-01-11 10:23:27,026 INFO /home/nihal/.local/bin/bench start
+2024-01-11 10:23:27,266 INFO /home/nihal/.local/bin/bench serve --port 8000
+2024-01-11 10:23:27,275 INFO /home/nihal/.local/bin/bench worker
+2024-01-11 10:23:27,295 INFO /home/nihal/.local/bin/bench schedule
+2024-01-11 10:23:27,298 INFO /home/nihal/.local/bin/bench watch
+2024-01-11 12:00:01,288 INFO /home/nihal/.local/bin/bench --verbose --site all backup

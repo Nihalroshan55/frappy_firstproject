@@ -37,5 +37,15 @@
         "required": [],
         "idx": 4,
         "version": "16.0.0-dev"
+    },
+    "demo_app": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "349355104b4f11132c3acf0b94dd0fcd02f8840e",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
     }
 }

@@ -1,0 +1,79 @@
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240109_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-09 12:00:02.757774
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240109_120002-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240109_120002-library_test-database.sql.gz 275.9KiB
+Backup for Site library.test has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240109_120002-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-09 12:00:03.572841
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240109_120002-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240109_120002-site_local-database.sql.gz 1.2MiB
+Backup for Site site.local has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240109_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-09 18:00:03.020340
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240109_180002-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240109_180002-library_test-database.sql.gz 280.5KiB
+Backup for Site library.test has been successfully completed
+File ./site.local/private/backups/20240109_120002-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_120002-site_local-database.sql.gz is recent
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240109_180003-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-09 18:00:04.177041
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240109_180003-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240109_180003-site_local-database.sql.gz 1.2MiB
+Backup for Site site.local has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240110_000002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-10 00:00:03.238033
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240110_000002-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240110_000002-library_test-database.sql.gz 280.5KiB
+Backup for Site library.test has been successfully completed
+File ./site.local/private/backups/20240109_180003-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_120002-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_120002-site_local-database.sql.gz is recent
+File ./site.local/private/backups/20240109_180003-site_local-database.sql.gz is recent
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240110_000003-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-10 00:00:04.606305
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240110_000003-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240110_000003-site_local-database.sql.gz 1.2MiB
+Backup for Site site.local has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240110_120002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-10 12:00:02.887995
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240110_120002-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240110_120002-library_test-database.sql.gz 282.6KiB
+Backup for Site library.test has been successfully completed
+File ./site.local/private/backups/20240110_000003-site_local-database.sql.gz is recent
+File ./site.local/private/backups/20240109_180003-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_120002-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_120002-site_local-database.sql.gz is recent
+File ./site.local/private/backups/20240110_000003-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_180003-site_local-database.sql.gz is recent
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240110_120002-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-10 12:00:03.813154
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240110_120002-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240110_120002-site_local-database.sql.gz 1.2MiB
+Backup for Site site.local has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240111_120001-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-11 12:00:02.113039
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240111_120001-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240111_120001-library_test-database.sql.gz 289.1KiB
+Backup for Site library.test has been successfully completed
+File ./site.local/private/backups/20240110_000003-site_local-database.sql.gz is older than 24 hours
+File ./site.local/private/backups/20240110_120002-site_local-site_config_backup.json is recent
+File ./site.local/private/backups/20240109_180003-site_local-site_config_backup.json is older than 24 hours
+File ./site.local/private/backups/20240109_120002-site_local-site_config_backup.json is older than 24 hours
+File ./site.local/private/backups/20240110_120002-site_local-database.sql.gz is recent
+File ./site.local/private/backups/20240110_000003-site_local-site_config_backup.json is older than 24 hours
+File ./site.local/private/backups/20240109_180003-site_local-database.sql.gz is older than 24 hours
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240111_120002-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-11 12:00:03.206173
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_120002-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_120002-site_local-database.sql.gz 1.3MiB
+Backup for Site site.local has been successfully completed
