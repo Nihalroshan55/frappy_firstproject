@@ -16018,3 +16018,19 @@
 2024-01-11 17:52:45,581 Result is kept for 600 seconds
 2024-01-11 17:56:09,921 Worker da9a27e8f63743d28d976e71fe6acb7d [PID 7431]: warm shut down requested
 2024-01-11 17:56:09,922 Unsubscribing from channel rq:pubsub:da9a27e8f63743d28d976e71fe6acb7d
+2024-01-12 09:13:26,186 Worker rq:worker:3425438da1b645bd88654390e7d3125c started with PID 3668, version 1.15.1
+2024-01-12 09:13:26,186 Subscribing to channel rq:pubsub:3425438da1b645bd88654390e7d3125c
+2024-01-12 09:13:26,187 *** Listening on home-nihal-study-frappe-first-frappe-bench:short, home-nihal-study-frappe-first-frappe-bench:default, home-nihal-study-frappe-first-frappe-bench:long...
+2024-01-12 09:13:26,188 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:short
+2024-01-12 09:13:26,189 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:default
+2024-01-12 09:13:26,190 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:long
+2024-01-12 09:13:29,135 Worker 3425438da1b645bd88654390e7d3125c [PID 3668]: warm shut down requested
+2024-01-12 09:13:29,137 Unsubscribing from channel rq:pubsub:3425438da1b645bd88654390e7d3125c
+2024-01-12 09:13:44,047 Worker rq:worker:822819052c5048409b9551cd20bd3e08 started with PID 4366, version 1.15.1
+2024-01-12 09:13:44,047 Subscribing to channel rq:pubsub:822819052c5048409b9551cd20bd3e08
+2024-01-12 09:13:44,048 *** Listening on home-nihal-study-frappe-first-frappe-bench:short, home-nihal-study-frappe-first-frappe-bench:default, home-nihal-study-frappe-first-frappe-bench:long...
+2024-01-12 09:13:44,048 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:short
+2024-01-12 09:13:44,049 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:default
+2024-01-12 09:13:44,050 Cleaning registries for queue: home-nihal-study-frappe-first-frappe-bench:long
+2024-01-12 09:14:29,727 Worker 822819052c5048409b9551cd20bd3e08 [PID 4366]: warm shut down requested
+2024-01-12 09:14:29,728 Unsubscribing from channel rq:pubsub:822819052c5048409b9551cd20bd3e08

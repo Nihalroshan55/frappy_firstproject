@@ -77,3 +77,19 @@ Backup Summary for site.local at 2024-01-11 12:00:03.206173
 Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_120002-site_local-site_config_backup.json 158.0B
 Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_120002-site_local-database.sql.gz 1.3MiB
 Backup for Site site.local has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_7697db89d1dd7f4f --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7697db89d1dd7f4f || kill $self ) | /usr/bin/gzip >> ./library.test/private/backups/20240111_180002-library_test-database.sql.gz
+
+Backup Summary for library.test at 2024-01-11 18:00:02.311119
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240111_180002-library_test-site_config_backup.json 94.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/library.test/private/backups/20240111_180002-library_test-database.sql.gz 294.4KiB
+Backup for Site library.test has been successfully completed
+File ./site.local/private/backups/20240111_120002-site_local-database.sql.gz is recent
+File ./site.local/private/backups/20240110_120002-site_local-site_config_backup.json is older than 24 hours
+File ./site.local/private/backups/20240110_120002-site_local-database.sql.gz is older than 24 hours
+File ./site.local/private/backups/20240111_120002-site_local-site_config_backup.json is recent
+self=$$; ( /usr/bin/mariadb-dump --user=_92ade8f3e10681c6 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _92ade8f3e10681c6 || kill $self ) | /usr/bin/gzip >> ./site.local/private/backups/20240111_180002-site_local-database.sql.gz
+
+Backup Summary for site.local at 2024-01-11 18:00:03.304352
+Config  : /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_180002-site_local-site_config_backup.json 158.0B
+Database: /home/nihal/study/frappe/first/frappe-bench/sites/site.local/private/backups/20240111_180002-site_local-database.sql.gz 1.3MiB
+Backup for Site site.local has been successfully completed
